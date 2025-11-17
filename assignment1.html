@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .head{
+            width:1050px;
+            background-color: rgb(252, 249, 249);
+            border: 1px solid lightgray;
+            text-align: center;
+            color: rgb(95, 7, 139);
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 1%;
+            margin: auto;
+        }
+        .box{
+            border:1px solid lightgray;
+            height:1130px;
+            width:1050px;
+            margin:auto;
+            border-radius: 10px;
+            background-color: rgb(233, 222, 224);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       .box h2{
+            text-align: center;
+            border: 1px solid lightgray;
+            background-color: rgb(224, 22, 136);
+            color: white;
+            height: 50px;
+            width:1050px;
+            margin-top: auto;
+            border-radius: 10px;
+        }
+        .head2{
+            width:1050px;
+            background-color: rgb(252, 249, 249);
+            border: 1px solid lightgray;
+            text-align: center;
+            color: rgb(1, 91, 19);
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 1%;
+            margin: auto;
+        }
+       .box button{
+        background-color: rgb(177, 22, 108);
+        color: antiquewhite;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        margin-left: 900px;
+       }
+       
+       #hobby{
+        font-family: Arial, Helvetica, sans-serif;
+       }
+
+       #qualify{
+        background-color: rgb(245, 245, 245);
+       }
+    </style>
+</head>
+<body>
+<div class="head">
+        <h3>Modern Registration Form</h3>
+</div> <br><br>
+
+<div class="box">
+        <h2>Student Registration Form</h2>
+
+        <form action="/dummy">
+          <div> <table>
+                <tr>
+                    <td>
+            <label for="firstname"><b>First Name</b></label>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter first name" size="60">
+            
+</td>
+<td width="500">
+
+</td>
+         <td>
+<label for="lastname"><b>Last Name</b></label>
+            <input type="text" name="lastname" id="lastname" placeholder="Enter last name" size="60">  
+          </td> 
+        </tr>
+    </table>
+
+    <br><br>
+
+<table>
+   </div> 
+
+   <div>
+    <label><b>Date of Birth</b></label><br>
+<tr>
+<td>
+<select name="day">
+  <option><b>Day</b></option>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  <option>6</option>
+  <option>7</option>
+  <option>8</option>
+  <option>9</option>
+  <option>10</option>
+  <option>11</option>
+  <option>12</option>
+  <option>13</option>
+  <option>14</option>
+  <option>15</option>
+  <option>16</option>
+  <option>17</option>
+  <option>18</option>
+  <option>19</option>
+  <option>20</option>
+  <option>21</option>
+  <option>22</option>
+  <option>23</option>
+  <option>24</option>
+  <option>25</option>
+  <option>26</option>
+  <option>27</option>
+  <option>28</option>
+  <option>29</option>
+  <option>30</option>
+  <option>31</option>
+</select>
+</td>
+<td>
+<select name="month">
+  <option><b>Month</b></option>
+  <option>January</option>
+  <option>February</option>
+  <option>March</option>
+  <option>April</option>
+  <option>May</option>
+  <option>June</option>
+  <option>July</option>
+  <option>August</option>
+  <option>September</option>
+  <option>October</option>
+  <option>November</option>
+  <option>December</option>
+</select>
+</td>
+<td>
+<select name="year">
+  <option><b>Year</b></option>
+  <option>2000</option>
+  <option>2001</option>
+  <option>2002</option>
+  <option>2003</option>
+  <option>2004</option>
+  <option>2005</option>
+  <option>2006</option>
+  <option>2007</option>
+  <option>2008</option>
+  <option>2009</option>
+  <option>2010</option>
+</select>
+</td>
+</tr>
+</table>
+</div>
+ <br><br>
+
+
+ <div>
+  <table>
+                <tr>
+                    <td>
+            <label for="email"><b>Email ID</b></label>
+            <input type="text" name="email" id="email" placeholder="Enter email address" size="60">
+            
+</td>
+<td width="400">
+</td>
+         <td>
+<label for="mobno"><b>Mobile Number</b></label>
+            <input type="text" name="mobno" id="mobno" placeholder="Enter 10 digit mobile number" size="60">  
+          </td> 
+        </tr>
+    </table>
+</div>
+<br><br>
+<div>
+    <label for="gender"><b>Gender</b></label>
+    <br>
+    <input type="radio" name="gender" value="male"><b>Male</b>
+    <input type="radio" name="gender" value="female"><b>Female</b>
+</div>
+    <br><br>
+<div>
+   <label for="address"><strong>Address</strong></label><br>
+     <textarea id="address" name="address" rows="3" cols="140" placeholder="Enter your full address"></textarea><br><br>
+ </div>
+
+ <div>
+     <table>
+                <tr>
+                    <td>
+            <label for="city"><b>City</b></label>
+            <input type="text" name="city" id="city" placeholder="Enter city" size="30">
+            
+</td>
+<td width="500">
+
+</td>
+         <td>
+<label for="pin"><b>Pincode</b></label>
+            <input type="text" name="pin" id="pin" placeholder="Enter 6-digit PIN code" size="30">  
+          </td> 
+
+          <td width="500"></td>
+<td>
+<label for="State"><b>State</b></label>
+            <input type="text" name="State" id="State" placeholder="Enter State" size="30">  
+          </td> 
+        </tr>
+    </table>
+</div>
+
+    <br><br>
+
+<div>
+     <label for="country"><b>Country</b></label><br>
+     <select name="country">
+       <option><b>Select country</b></option>
+       <option>India</option>
+       <option>China</option>
+       <option>Austrelia</option>
+       <option>russia</option>
+       <option>korea</option>
+       <option>USA</option>
+    </select>
+
+</div>
+
+    <br><br>
+<div id="hobby">
+    <label for="hobby"><b>Hobbies</b></label><br>
+    <input type="checkbox" value="draw">Drawing
+    <input type="checkbox" value="sing">Singing
+    <input type="checkbox" value="Dance">Dancing<br>
+    <input type="checkbox" value="Sketch">Sketching
+    <input type="checkbox" value="Others">Others
+</div>
+
+    <br><br>
+
+<label for="qualification"><b>Qualification</b></label><br><br>
+<div id="qualify">
+    <table border="1px" width="100%" cellspacing="10" cellpadding="5">
+      <tr>
+        <td>Sr.no</td>
+        <td>Examination</td>
+        <td>Board</td>
+        <td>Percentage</td>
+        <td>Year of Passing</td>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td><b>Class X</b></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td><b>Class XII</b></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td><b>Graduation</b></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>4</td>
+        <td><b>Masters</b></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+</div>
+    <br><br>
+ 
+<div>   
+    <label for="course"><b>Courses Applied For</b></label>
+    <br>
+    <input type="radio" name="sub" value="BCA">BCA
+    <input type="radio" name="sub" value="B.Com">B.Com
+    <input type="radio" name="sub" value="B.Sc">B.Sc
+    <input type="radio" name="sub" value="B.A">B.A
+
+</div> 
+    <br><br>
+      
+   <input type="reset" value="Reset">
+   <button>Submit</button>
+  
+    </form>
+</div>
+
+<br><br>
+
+<div class="head2">
+        <h3>Professional Registration Form</h3>
+</div> 
+</body>
+</html>
